@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/sign-in/page.jsx", "src/api/webhook/register/route.js", "src/app/api/auth/shopify/route.js"],
   "exclude": ["node_modules"]
 }
